@@ -10,8 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-WordPress 2025 child theme for oik-presentation
-
+WordPress child theme of Twenty Twenty-Five for oik-presentation
 
 == Changelog ==
 
@@ -36,4 +35,9 @@ GNU General Public License for more details.
 
 
 oobit-2025 is a child theme of Twenty Twenty-Five (https://wordpress.org/themes/twentytwentyfive/), (C) the WordPress team, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
+
+
+== Recommended Plugins ==
+
+oik
 
