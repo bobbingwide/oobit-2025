@@ -5,6 +5,23 @@
 		}
 	},
 	"styles": {
+		"elements": {
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--contrast)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--accent-3)"
+				},
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "600",
+					"textDecoration": "none"
+				}
+			}
+		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"letterSpacing": "0px"
