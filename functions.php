@@ -22,8 +22,17 @@ function oobit_render_block_core_shortcode( $content, $parsed_block, $block ) {
  */
 function oobit_init() {
     if (function_exists('bw_add_shortcode')) {
-        do_action("oik_add_shortcodes");
+        //do_action("oik_add_shortcodes");
+	    // $theme = bw_get_theme();
+	    $theme = wp_get_theme();
+		$is_block_theme = $theme->is_block_theme();
+		if ( $is_block_theme ) {
+			do_action("oik_add_shortcodes");
+		}
+		bw_trace2( $theme, "theme");
+		gob();
     }
 }
 
-add_action( 'init', 'oobit_init', 20 );
+//add_action( 'init', 'oobit_init', 20 );
+//add_filter( 'current_theme_supports-')
