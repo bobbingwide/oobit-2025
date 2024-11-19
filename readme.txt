@@ -2,7 +2,7 @@
 
 Contributors: bobbingwide
 Requires at least: 6.6
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,6 +13,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 WordPress child theme of Twenty Twenty-Five for oik-presentation
 
 == Changelog ==
+= 0.2.0 =
+* Changed: Add clone and cloned shortcodes to the footer #1
+* Added: Add custom.css that might be used by oik #1
+* Changed: Remove the first query loop for the sticky post #11
+* Changed: Update author box display for 6.7-beta3 version of Twenty Twenty-Five #1
+* Changed: Update for 6.7-beta3 version of Twenty Twenty-Five. Separate the total downloads and plugins section #1
+* Added: Implement dynamic-charts template part #11
+* Changed: Restyle presentation notes to be more like oobit #6
+* Changed: Improve Author box layout on single and page templates #4 #5
+* Changed: Improve Footer's follow me to use oik's alt=0 options #3
+* Changed: Improve Author box. Add Follow me block #4 #5
+* Tested: With WordPress 6.7 and WordPress Multisite
+* Tested: With PHP 8.3
 
 = 0.1.0 =
 Second version for testing on PHPHants
